@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>AnimatedEntity.qml</file>
+        <file>MyEntity.qml</file>
+        <file>mainEntity.qml</file>
+    </qresource>
+</RCC>

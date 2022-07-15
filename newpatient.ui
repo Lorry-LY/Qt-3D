@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewPatient</class>
+ <widget class="QWidget" name="NewPatient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>4230</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_6">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAsNeeded</enum>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-805</y>
+        <width>789</width>
+        <height>1408</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>789</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>789</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <item row="1" column="0" colspan="2">
+           <widget class="QWidget" name="widget_info" native="true">
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_profession">
+               <property name="text">
+                <string>职业：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_2">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>基本信息</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="9">
+              <widget class="QDateEdit" name="dateEdit_birthday"/>
+             </item>
+             <item row="3" column="1" colspan="9">
+              <widget class="QLineEdit" name="lineEdit_IDCard"/>
+             </item>
+             <item row="5" column="3">
+              <widget class="QLabel" name="label_mailing_address">
+               <property name="text">
+                <string>邮箱：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="3">
+              <widget class="QLabel" name="label_password">
+               <property name="text">
+                <string>密码：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1" colspan="2">
+              <widget class="QLineEdit" name="lineEdit_profession"/>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_name">
+               <property name="text">
+                <string>姓名：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="8">
+              <widget class="QLabel" name="label_birthday">
+               <property name="text">
+                <string>生日：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="6">
+              <widget class="QLabel" name="label_sex">
+               <property name="text">
+                <string>性别：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="7">
+              <widget class="QComboBox" name="comboBox_sex">
+               <property name="minimumSize">
+                <size>
+                 <width>50</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>男</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>女</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="5" column="9">
+              <widget class="QLineEdit" name="lineEdit_telephone"/>
+             </item>
+             <item row="5" column="4" colspan="3">
+              <widget class="QLineEdit" name="lineEdit_mailing_address">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1" colspan="9">
+              <widget class="QLineEdit" name="lineEdit_address">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1" colspan="2">
+              <widget class="QLineEdit" name="lineEdit_name"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_address">
+               <property name="text">
+                <string>家庭地址：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>身份证号码：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="7" colspan="2">
+              <widget class="QLabel" name="label_telephone">
+               <property name="text">
+                <string>联系电话：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="4" colspan="2">
+              <widget class="QLineEdit" name="lineEdit_password"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="9" column="0">
+           <widget class="QWidget" name="widget_relation" native="true">
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="1" column="0">
+              <widget class="QWidget" name="widget_9" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_10">
+                <item>
+                 <widget class="QLabel" name="label_13">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>母亲妊娠和分娩时：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="comboBox_healthOnbirth">
+                  <item>
+                   <property name="text">
+                    <string>身体健康</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>不健康</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_17">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>使用药物：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="comboBox_normalDrug">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>不正常</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_18">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>三代直系：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="comboBox_threeGenerations">
+                  <item>
+                   <property name="text">
+                    <string>无类似畸形</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>有类似畸形</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_threeGenerations"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_10">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_14">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>先天因素</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QWidget" name="widget_13" native="true">
+               <layout class="QGridLayout" name="gridLayout_7">
+                <item row="1" column="2">
+                 <widget class="QLabel" name="label_20">
+                  <property name="text">
+                   <string>对新事物的适应力：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QComboBox" name="comboBox_grade">
+                  <item>
+                   <property name="text">
+                    <string>好</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>中</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>差</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="4">
+                 <widget class="QLabel" name="label_21">
+                  <property name="text">
+                   <string>对畸形的自我评价：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_16">
+                  <property name="text">
+                   <string>在校成绩：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="label_22">
+                  <property name="text">
+                   <string>自尊心：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="3">
+                 <widget class="QComboBox" name="comboBox_adaptation">
+                  <item>
+                   <property name="text">
+                    <string>强</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>中</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>弱</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="5">
+                 <widget class="QComboBox" name="comboBox_selfEvaluation">
+                  <item>
+                   <property name="text">
+                    <string>很在意</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>中</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>不在意</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="6">
+                 <spacer name="horizontalSpacer_12">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="2" column="6">
+                 <spacer name="horizontalSpacer_13">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QComboBox" name="comboBox_pride">
+                  <item>
+                   <property name="text">
+                    <string>强</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>中</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>弱</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_19">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>社会行为</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QWidget" name="widget_oral" native="true">
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_10">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>口腔病史</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QWidget" name="widget_7" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="text">
+                   <string>空腔不良习惯：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget_badHabits" native="true"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_6">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QWidget" name="widget_10" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_11">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5546</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>是否有唇腭裂：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget_NSCLP" native="true"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_8">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QWidget" name="widget_6" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <property name="leftMargin">
+                 <number>9</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>9</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_7">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5546</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>是否有正畸史：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget_orthodontics" native="true"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_5">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QWidget" name="widget_8" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_7">
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="text">
+                   <string>乳牙替换情况：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget_babyTeeth" native="true"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_7">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QWidget" name="widget_11" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_9">
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_12">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5546</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>牙齿及颌骨外伤：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget_trauma" native="true"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_9">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QWidget" name="widget_disease" native="true">
+            <layout class="QGridLayout" name="gridLayout_4">
+             <item row="1" column="0">
+              <widget class="QWidget" name="widget_3" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <item>
+                 <widget class="QLabel" name="label_4">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>既往史：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget_pastMedical" native="true"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_4">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_3">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>全身病史</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QWidget" name="widget_2" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <item>
+                 <widget class="QLabel" name="label_5">
+                  <property name="text">
+                   <string>药物史：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget_allergic" native="true"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_3">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QWidget" name="widget_4" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <item>
+                 <widget class="QLabel" name="label_6">
+                  <property name="text">
+                   <string>过敏史：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget_pharmaco" native="true"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="11" column="0">
+           <widget class="QWidget" name="widget_Examine" native="true">
+            <layout class="QGridLayout" name="gridLayout_11">
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_51">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>功能检查</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QWidget" name="widget_16" native="true">
+               <layout class="QGridLayout" name="gridLayout_13">
+                <item row="0" column="7">
+                 <widget class="QComboBox" name="comboBox_front_lips">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>唇闭合不全</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLabel" name="label_43">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>下面高：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QComboBox" name="comboBox_front_Chin">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>偏右</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>偏左</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_44">
+                  <property name="text">
+                   <string>颏位：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_45">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>正面型：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLabel" name="label_46">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>对称性：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QComboBox" name="comboBox_front_Ans_Me">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>长</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>短</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="0" column="6">
+                 <widget class="QLabel" name="label_47">
+                  <property name="text">
+                   <string>唇齿位：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="2">
+                 <widget class="QLabel" name="label_48">
+                  <property name="text">
+                   <string>微笑：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QComboBox" name="comboBox_front">
+                  <item>
+                   <property name="text">
+                    <string>均面</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>短面</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>长面</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QComboBox" name="comboBox_front_symmetry">
+                  <item>
+                   <property name="text">
+                    <string>对称</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>不对称</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="3" colspan="5">
+                 <widget class="QComboBox" name="comboBox_front_smile">
+                  <item>
+                   <property name="text">
+                    <string>正常（75%~100%）</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>高笑线（100%前牙临床牙冠）</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>低笑线（0~75%）</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>露龈笑I类（长面型，上颌骨过度生长）</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>露龈笑II类（上唇短/唇收缩功能亢进，上颌骨生长正常）</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QWidget" name="widget_17" native="true">
+               <layout class="QGridLayout" name="gridLayout_14">
+                <item row="1" column="3">
+                 <widget class="QComboBox" name="comboBox_side_mandible">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>大</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>小</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLabel" name="label_57">
+                  <property name="text">
+                   <string>颏唇沟角：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLabel" name="label_49">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>唇位：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QComboBox" name="comboBox_side_Chin">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>前</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>后</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QComboBox" name="comboBox_side_lips">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>前</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>后</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_55">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>侧面型：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="4">
+                 <widget class="QLabel" name="label_56">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>鼻唇角：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="2">
+                 <widget class="QLabel" name="label_58">
+                  <property name="text">
+                   <string>下颌角：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_54">
+                  <property name="text">
+                   <string>颏位：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QComboBox" name="comboBox_side">
+                  <item>
+                   <property name="text">
+                    <string>直</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>凹</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>凸</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="5" colspan="2">
+                 <widget class="QComboBox" name="comboBox_side_nasolabial">
+                  <item>
+                   <property name="text">
+                    <string>正常（95~100°）</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>大</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>小</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QComboBox" name="comboBox_side_groove">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>浅</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>深</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_53">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>侧貌</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_52">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>正貌</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QWidget" name="widget_15" native="true">
+               <layout class="QGridLayout" name="gridLayout_12">
+                <item row="1" column="12">
+                 <spacer name="horizontalSpacer_16">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_38">
+                  <property name="text">
+                   <string>发音：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="12">
+                 <spacer name="horizontalSpacer_17">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QComboBox" name="comboBox_pronounce">
+                  <item>
+                   <property name="text">
+                    <string>无</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>s.z.</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>f.v.</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>th.sh.ch.</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>t.d.</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>l.n.</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="2">
+                 <widget class="QLabel" name="label_41">
+                  <property name="text">
+                   <string>呼吸：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="3">
+                 <widget class="QComboBox" name="comboBox_breathe">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>呼吸音</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="4">
+                 <widget class="QLabel" name="label_42">
+                  <property name="text">
+                   <string>咀嚼：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="6">
+                 <widget class="QComboBox" name="comboBox_chew">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>偏侧咀嚼</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="7">
+                 <widget class="QLabel" name="label_40">
+                  <property name="text">
+                   <string>吞咽：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="8">
+                 <widget class="QComboBox" name="comboBox_swallow">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>伸舌</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="2" column="3">
+                 <widget class="QComboBox" name="comboBox_openingDegree">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>受限</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="2" column="2">
+                 <widget class="QLabel" name="label_39">
+                  <property name="text">
+                   <string>张口度：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0" colspan="2">
+                 <widget class="QLabel" name="label_37">
+                  <property name="text">
+                   <string>下颌运动：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="4">
+                 <widget class="QLabel" name="label_59">
+                  <property name="text">
+                   <string>张口型：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="6">
+                 <widget class="QComboBox" name="comboBox_openingModel">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>不正常</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="2" column="7">
+                 <widget class="QLabel" name="label_60">
+                  <property name="text">
+                   <string>ICP与RCP位：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="8">
+                 <widget class="QComboBox" name="comboBox_ICP_RCP">
+                  <item>
+                   <property name="text">
+                    <string>一致</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>不一致</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_50">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>颜貌检查</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="10" column="0">
+           <widget class="QWidget" name="widget_physicalCondition" native="true">
+            <layout class="QGridLayout" name="gridLayout_8">
+             <item row="3" column="0">
+              <widget class="QWidget" name="widget_14" native="true">
+               <layout class="QGridLayout" name="gridLayout_9">
+                <item row="1" column="11">
+                 <spacer name="horizontalSpacer_14">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="2" column="2" colspan="2">
+                 <widget class="QComboBox" name="comboBox_gingiva">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>炎症</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="2" column="7">
+                 <widget class="QLabel" name="label_35">
+                  <property name="text">
+                   <string>系带：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="8">
+                 <widget class="QComboBox" name="comboBox_frenum">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>粗短</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_28">
+                  <property name="text">
+                   <string>口腔卫生状态：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="9">
+                 <widget class="QLabel" name="label_36">
+                  <property name="text">
+                   <string>软腭：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="6">
+                 <widget class="QComboBox" name="comboBox_tonsil">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>肥大</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="2" column="5">
+                 <widget class="QLabel" name="label_27">
+                  <property name="text">
+                   <string>扁桃体：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QComboBox" name="comboBox_oralHygiene">
+                  <item>
+                   <property name="text">
+                    <string>好</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>中</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>差</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="label_29">
+                  <property name="text">
+                   <string>软组织：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QLabel" name="label_26">
+                  <property name="text">
+                   <string>牙龈：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="11">
+                 <spacer name="horizontalSpacer_15">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="2" column="10">
+                 <widget class="QComboBox" name="comboBox_softPalate">
+                  <item>
+                   <property name="text">
+                    <string>正常</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>缺损</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QWidget" name="widget_12" native="true">
+               <layout class="QGridLayout" name="gridLayout_10">
+                <item row="0" column="3">
+                 <widget class="QDoubleSpinBox" name="doubleSpinBox_weight"/>
+                </item>
+                <item row="0" column="7">
+                 <widget class="QComboBox" name="comboBox_sexuality">
+                  <item>
+                   <property name="text">
+                    <string>出现</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>未出现</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLabel" name="label_24">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>牙龄：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QComboBox" name="comboBox_growPeriod">
+                  <item>
+                   <property name="text">
+                    <string>高峰期</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>高峰前期</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>高峰后期</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>滞后期</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_32">
+                  <property name="text">
+                   <string>生长期：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_15">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>身高(cm)：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QSpinBox" name="spinBox_height"/>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLabel" name="label_23">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>5646</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>体重(kg)：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QComboBox" name="comboBox_teethAge">
+                  <item>
+                   <property name="text">
+                    <string>混合牙列</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>乳牙列</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>恒牙列</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="0" column="6">
+                 <widget class="QLabel" name="label_31">
+                  <property name="text">
+                   <string>性征：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="2">
+                 <widget class="QLabel" name="label_33">
+                  <property name="text">
+                   <string>心理状态：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="3">
+                 <widget class="QComboBox" name="comboBox_mentality">
+                  <item>
+                   <property name="text">
+                    <string>合作</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>渴求</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>不合作</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item row="1" column="4">
+                 <widget class="QLabel" name="label_34">
+                  <property name="text">
+                   <string>要求：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="5">
+                 <widget class="QComboBox" name="comboBox_required">
+                  <item>
+                   <property name="text">
+                    <string>一般</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>较高</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>很高</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_25">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>全身状态</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_30">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>口腔组织</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QWidget" name="widget_button" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>40</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>50</number>
+      </property>
+      <property name="rightMargin">
+       <number>15</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>518</width>
+          <height>19</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_accept">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>新建患者</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_back">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>取消</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWidget" name="widget_19" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

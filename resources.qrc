@@ -1,0 +1,52 @@
+<RCC>
+    <qresource prefix="/buttonImage">
+        <file>PS/camera_front.png</file>
+        <file>PS/camera_side.png</file>
+        <file>PS/camera_top.png</file>
+        <file>PS/cameraImage.png</file>
+    </qresource>
+    <qresource prefix="/model">
+        <file>model/teeth/Left_mandibular_central_incisor.obj</file>
+        <file>model/teeth/Left_mandibular_cusp.obj</file>
+        <file>model/teeth/Left_mandibular_first_molar.obj</file>
+        <file>model/teeth/Left_mandibular_first_premolar.obj</file>
+        <file>model/teeth/Left_mandibular_lateral_incisor.obj</file>
+        <file>model/teeth/Left_mandibular_second_molar.obj</file>
+        <file>model/teeth/Left_mandibular_second_premolar.obj</file>
+        <file>model/teeth/Left_mandibular_third_molar.obj</file>
+        <file>model/teeth/Left_maxillary_central_incisor.obj</file>
+        <file>model/teeth/Left_maxillary_cusp.obj</file>
+        <file>model/teeth/Left_maxillary_first_molar.obj</file>
+        <file>model/teeth/Left_maxillary_first_premolar.obj</file>
+        <file>model/teeth/Left_maxillary_lateral_incisor.obj</file>
+        <file>model/teeth/Left_maxillary_second_molar.obj</file>
+        <file>model/teeth/Left_maxillary_second_premolar.obj</file>
+        <file>model/teeth/Left_upper_third_molar.obj</file>
+        <file>model/teeth/Right_lateral_maxillary_incisor.obj</file>
+        <file>model/teeth/Right_mandibular_central_incisor.obj</file>
+        <file>model/teeth/Right_mandibular_cusp.obj</file>
+        <file>model/teeth/Right_mandibular_first_molar.obj</file>
+        <file>model/teeth/Right_mandibular_first_premolar.obj</file>
+        <file>model/teeth/Right_mandibular_lateral_incisor.obj</file>
+        <file>model/teeth/Right_mandibular_second_molar.obj</file>
+        <file>model/teeth/Right_mandibular_second_premolar.obj</file>
+        <file>model/teeth/Right_maxillary_central_incisor.obj</file>
+        <file>model/teeth/Right_maxillary_cusp.obj</file>
+        <file>model/teeth/Right_maxillary_first_molar.obj</file>
+        <file>model/teeth/Right_maxillary_first_premolar.obj</file>
+        <file>model/teeth/Right_maxillary_second_molar.obj</file>
+        <file>model/teeth/Right_upper_second_premolar.obj</file>
+        <file>model/teeth/Right_upper_third_molar.obj</file>
+        <file>model/teeth/Third_molar_of_the_right_lower_jaw.obj</file>
+        <file>model/bone/Lower_jaw_bone.obj</file>
+        <file>model/bone/Maxillary_sinus.obj</file>
+        <file>model/bone/The_left_side_of_the_temporal_bone.obj</file>
+        <file>model/bone/The_right_side_of_the_temporal_bone.obj</file>
+        <file>model/bone/Upper_jaw_bone.obj</file>
+        <file>model/teapot.mesh</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>image/background.jpg</file>
+        <file>image/logo.ico</file>
+    </qresource>
+</RCC>
